@@ -1,5 +1,6 @@
 GTThreads
 =========
+This is a preemptive user-level thread package with an API similar to the existing C Pthreads library.
 
 The GTThreads API consists of the following functions:
 
