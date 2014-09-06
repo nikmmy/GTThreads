@@ -30,18 +30,17 @@ I have also implemented the Dining Philosopher's problem to demonstrate the use 
 COMPILING AND RUNNING THE CODE:
 
 The code is orgranized into three header files, one for two linked lists needed by the scheduler(cll.h and ell.h) and one the gtthread header file which uses the linked list header files. The dining philosopher's source code is dp_gt.c. 
-Compile the program pgm.c which uses the GTThreads library as follows:
-	compile the library itself
+Compile the program pgm.c which uses the Gtthreads library as follows:
+	First, compile library itself,
 	
-		./make
+		make
 	
-	compile program as,
+	Then,compile the program,
 	
 		gcc -Wall -pedantic -o pgm pgm.c gtthread.a
 	
 	and then run it as,
 	
-		
 		./pgm	
 		
 	To execute dining philosophers’ code,
