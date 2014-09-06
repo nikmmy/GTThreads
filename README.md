@@ -31,6 +31,7 @@ COMPILING AND RUNNING THE CODE:
 
 The code is orgranized into three header files, one for two linked lists needed by the scheduler(cll.h and ell.h) and one the gtthread header file which uses the linked list header files. The dining philosopher's source code is dp_gt.c. 
 Compile the program pgm.c which uses the Gtthreads library as follows:
+	
 	First, compile library itself,
 	
 		make
